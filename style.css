@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Londrina Solid', cursive;
+}
+body{
+    background-color: #065000;
+}
+.main-container{
+    text-align: center;
+    width:60%;
+    margin:20px auto;
+    padding:10px;
+    border:1px solid white;
+
+}
+.main-container h1,.main-container h3{
+    color:white;
+    text-align: center;
+}
+img{
+    
+    width:100px;
+   
+}
+.dealer-cards,.player-cards{
+    display:flex;
+    justify-content: center;
+    margin:20px auto;
+}
+a{
+    width:50px;
+    padding:5px;
+    background-color:white;
+    color:black;
+    width: 200px;
+}
+p.card_total{
+    display: block;
+}
